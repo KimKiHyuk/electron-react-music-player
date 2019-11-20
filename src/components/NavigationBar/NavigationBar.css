@@ -1,0 +1,42 @@
+.header.side_bar {
+    bottom: 81px;
+    left: 0;
+    width: 225px;
+  }
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 60;
+  background-color: #000;
+}
+.header.side_bar .my_menu {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: scrollbar;
+  position: absolute;
+  top: 73px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 15px 40px;
+}
+
+.header.side_bar .link_membership {
+  display: block;
+  margin-bottom: 15px;
+  line-height: 50px;
+}
+
+.header .link_membership {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  background-image: linear-gradient(106deg,#ff0c28,#d901df 48%,#7200ff);
+  will-change: transform;
+}
+
+.header .link_membership .ticket_m {
+    display: none;
+}
